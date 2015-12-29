@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA233A9F1C320D400077FB0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233A9E1C320D400077FB0A /* AppDelegate.swift */; };
+		FA233AA11C320D400077FB0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233AA01C320D400077FB0A /* ViewController.swift */; };
+		FA233AA41C320D400077FB0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA233AA21C320D400077FB0A /* Main.storyboard */; };
+		FA233AA61C320D400077FB0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA233AA51C320D400077FB0A /* Assets.xcassets */; };
+		FA233AA91C320D400077FB0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA233AA71C320D400077FB0A /* LaunchScreen.storyboard */; };
+		FA233AB41C320D400077FB0A /* Deck_of_CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233AB31C320D400077FB0A /* Deck_of_CardsTests.swift */; };
+		FA233ABF1C320D400077FB0A /* Deck_of_CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233ABE1C320D400077FB0A /* Deck_of_CardsUITests.swift */; };
+		FA233ACD1C320D5F0077FB0A /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233ACC1C320D5F0077FB0A /* DeckView.swift */; };
+		FA233ACF1C3211910077FB0A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233ACE1C3211910077FB0A /* UIColorExtension.swift */; };
+		FA233AD31C3261700077FB0A /* DeckViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233AD21C3261700077FB0A /* DeckViewCard.swift */; };
+		FA233AD51C3261810077FB0A /* DeckViewCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA233AD41C3261810077FB0A /* DeckViewCard.xib */; };
+		FA233ADA1C3263AB0077FB0A /* CardBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233AD91C3263AB0077FB0A /* CardBackgroundView.swift */; };
+		FA233ADC1C3264470077FB0A /* CardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233ADB1C3264470077FB0A /* CardImageView.swift */; };
+		FA233ADE1C3276520077FB0A /* RippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233ADD1C3276520077FB0A /* RippleButton.swift */; };
+		FA233AE01C3292940077FB0A /* NoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA233ADF1C3292940077FB0A /* NoButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA233AB01C320D400077FB0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA233A931C320D400077FB0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA233A9A1C320D400077FB0A;
+			remoteInfo = "Deck of Cards";
+		};
+		FA233ABB1C320D400077FB0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA233A931C320D400077FB0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA233A9A1C320D400077FB0A;
+			remoteInfo = "Deck of Cards";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA233A9B1C320D400077FB0A /* Deck of Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deck of Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA233A9E1C320D400077FB0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA233AA01C320D400077FB0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA233AA31C320D400077FB0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA233AA51C320D400077FB0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA233AA81C320D400077FB0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA233AAA1C320D400077FB0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA233AAF1C320D400077FB0A /* Deck of CardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deck of CardsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA233AB31C320D400077FB0A /* Deck_of_CardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_of_CardsTests.swift; sourceTree = "<group>"; };
+		FA233AB51C320D400077FB0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA233ABA1C320D400077FB0A /* Deck of CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deck of CardsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA233ABE1C320D400077FB0A /* Deck_of_CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_of_CardsUITests.swift; sourceTree = "<group>"; };
+		FA233AC01C320D400077FB0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA233ACC1C320D5F0077FB0A /* DeckView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
+		FA233ACE1C3211910077FB0A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FA233AD21C3261700077FB0A /* DeckViewCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckViewCard.swift; sourceTree = "<group>"; };
+		FA233AD41C3261810077FB0A /* DeckViewCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeckViewCard.xib; sourceTree = "<group>"; };
+		FA233AD91C3263AB0077FB0A /* CardBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardBackgroundView.swift; sourceTree = "<group>"; };
+		FA233ADB1C3264470077FB0A /* CardImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardImageView.swift; sourceTree = "<group>"; };
+		FA233ADD1C3276520077FB0A /* RippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleButton.swift; sourceTree = "<group>"; };
+		FA233ADF1C3292940077FB0A /* NoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA233A981C320D400077FB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA233AAC1C320D400077FB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA233AB71C320D400077FB0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA233A921C320D400077FB0A = {
+			isa = PBXGroup;
+			children = (
+				FA233A9D1C320D400077FB0A /* Deck of Cards */,
+				FA233AB21C320D400077FB0A /* Deck of CardsTests */,
+				FA233ABD1C320D400077FB0A /* Deck of CardsUITests */,
+				FA233A9C1C320D400077FB0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA233A9C1C320D400077FB0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA233A9B1C320D400077FB0A /* Deck of Cards.app */,
+				FA233AAF1C320D400077FB0A /* Deck of CardsTests.xctest */,
+				FA233ABA1C320D400077FB0A /* Deck of CardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA233A9D1C320D400077FB0A /* Deck of Cards */ = {
+			isa = PBXGroup;
+			children = (
+				FA233AD71C3263570077FB0A /* Utilities */,
+				FA233A9E1C320D400077FB0A /* AppDelegate.swift */,
+				FA233AD61C3263360077FB0A /* View */,
+				FA233AD81C32637C0077FB0A /* Controller */,
+				FA233AA21C320D400077FB0A /* Main.storyboard */,
+				FA233AA51C320D400077FB0A /* Assets.xcassets */,
+				FA233AA71C320D400077FB0A /* LaunchScreen.storyboard */,
+				FA233AAA1C320D400077FB0A /* Info.plist */,
+			);
+			path = "Deck of Cards";
+			sourceTree = "<group>";
+		};
+		FA233AB21C320D400077FB0A /* Deck of CardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA233AB31C320D400077FB0A /* Deck_of_CardsTests.swift */,
+				FA233AB51C320D400077FB0A /* Info.plist */,
+			);
+			path = "Deck of CardsTests";
+			sourceTree = "<group>";
+		};
+		FA233ABD1C320D400077FB0A /* Deck of CardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA233ABE1C320D400077FB0A /* Deck_of_CardsUITests.swift */,
+				FA233AC01C320D400077FB0A /* Info.plist */,
+			);
+			path = "Deck of CardsUITests";
+			sourceTree = "<group>";
+		};
+		FA233AD61C3263360077FB0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA233ACC1C320D5F0077FB0A /* DeckView.swift */,
+				FA233AD21C3261700077FB0A /* DeckViewCard.swift */,
+				FA233AD41C3261810077FB0A /* DeckViewCard.xib */,
+				FA233AD91C3263AB0077FB0A /* CardBackgroundView.swift */,
+				FA233ADB1C3264470077FB0A /* CardImageView.swift */,
+				FA233ADD1C3276520077FB0A /* RippleButton.swift */,
+				FA233ADF1C3292940077FB0A /* NoButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FA233AD71C3263570077FB0A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA233ACE1C3211910077FB0A /* UIColorExtension.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		FA233AD81C32637C0077FB0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA233AA01C320D400077FB0A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA233A9A1C320D400077FB0A /* Deck of Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA233AC31C320D400077FB0A /* Build configuration list for PBXNativeTarget "Deck of Cards" */;
+			buildPhases = (
+				FA233A971C320D400077FB0A /* Sources */,
+				FA233A981C320D400077FB0A /* Frameworks */,
+				FA233A991C320D400077FB0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deck of Cards";
+			productName = "Deck of Cards";
+			productReference = FA233A9B1C320D400077FB0A /* Deck of Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA233AAE1C320D400077FB0A /* Deck of CardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA233AC61C320D400077FB0A /* Build configuration list for PBXNativeTarget "Deck of CardsTests" */;
+			buildPhases = (
+				FA233AAB1C320D400077FB0A /* Sources */,
+				FA233AAC1C320D400077FB0A /* Frameworks */,
+				FA233AAD1C320D400077FB0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA233AB11C320D400077FB0A /* PBXTargetDependency */,
+			);
+			name = "Deck of CardsTests";
+			productName = "Deck of CardsTests";
+			productReference = FA233AAF1C320D400077FB0A /* Deck of CardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA233AB91C320D400077FB0A /* Deck of CardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA233AC91C320D400077FB0A /* Build configuration list for PBXNativeTarget "Deck of CardsUITests" */;
+			buildPhases = (
+				FA233AB61C320D400077FB0A /* Sources */,
+				FA233AB71C320D400077FB0A /* Frameworks */,
+				FA233AB81C320D400077FB0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA233ABC1C320D400077FB0A /* PBXTargetDependency */,
+			);
+			name = "Deck of CardsUITests";
+			productName = "Deck of CardsUITests";
+			productReference = FA233ABA1C320D400077FB0A /* Deck of CardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA233A931C320D400077FB0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander Besson";
+				TargetAttributes = {
+					FA233A9A1C320D400077FB0A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C4BYKFZW4J;
+					};
+					FA233AAE1C320D400077FB0A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C4BYKFZW4J;
+						TestTargetID = FA233A9A1C320D400077FB0A;
+					};
+					FA233AB91C320D400077FB0A = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C4BYKFZW4J;
+						TestTargetID = FA233A9A1C320D400077FB0A;
+					};
+				};
+			};
+			buildConfigurationList = FA233A961C320D400077FB0A /* Build configuration list for PBXProject "Deck of Cards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA233A921C320D400077FB0A;
+			productRefGroup = FA233A9C1C320D400077FB0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA233A9A1C320D400077FB0A /* Deck of Cards */,
+				FA233AAE1C320D400077FB0A /* Deck of CardsTests */,
+				FA233AB91C320D400077FB0A /* Deck of CardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA233A991C320D400077FB0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA233AA91C320D400077FB0A /* LaunchScreen.storyboard in Resources */,
+				FA233AD51C3261810077FB0A /* DeckViewCard.xib in Resources */,
+				FA233AA61C320D400077FB0A /* Assets.xcassets in Resources */,
+				FA233AA41C320D400077FB0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA233AAD1C320D400077FB0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA233AB81C320D400077FB0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA233A971C320D400077FB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA233AA11C320D400077FB0A /* ViewController.swift in Sources */,
+				FA233A9F1C320D400077FB0A /* AppDelegate.swift in Sources */,
+				FA233AE01C3292940077FB0A /* NoButton.swift in Sources */,
+				FA233ADC1C3264470077FB0A /* CardImageView.swift in Sources */,
+				FA233ACD1C320D5F0077FB0A /* DeckView.swift in Sources */,
+				FA233AD31C3261700077FB0A /* DeckViewCard.swift in Sources */,
+				FA233ADE1C3276520077FB0A /* RippleButton.swift in Sources */,
+				FA233ADA1C3263AB0077FB0A /* CardBackgroundView.swift in Sources */,
+				FA233ACF1C3211910077FB0A /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA233AAB1C320D400077FB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA233AB41C320D400077FB0A /* Deck_of_CardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA233AB61C320D400077FB0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA233ABF1C320D400077FB0A /* Deck_of_CardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA233AB11C320D400077FB0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA233A9A1C320D400077FB0A /* Deck of Cards */;
+			targetProxy = FA233AB01C320D400077FB0A /* PBXContainerItemProxy */;
+		};
+		FA233ABC1C320D400077FB0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA233A9A1C320D400077FB0A /* Deck of Cards */;
+			targetProxy = FA233ABB1C320D400077FB0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA233AA21C320D400077FB0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA233AA31C320D400077FB0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA233AA71C320D400077FB0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA233AA81C320D400077FB0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA233AC11C320D400077FB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA233AC21C320D400077FB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA233AC41C320D400077FB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Deck of Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "besson.Deck-of-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA233AC51C320D400077FB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Deck of Cards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "besson.Deck-of-Cards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA233AC71C320D400077FB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Deck of CardsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "besson.Deck-of-CardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck of Cards.app/Deck of Cards";
+			};
+			name = Debug;
+		};
+		FA233AC81C320D400077FB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Deck of CardsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "besson.Deck-of-CardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck of Cards.app/Deck of Cards";
+			};
+			name = Release;
+		};
+		FA233ACA1C320D400077FB0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Deck of CardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "besson.Deck-of-CardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deck of Cards";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA233ACB1C320D400077FB0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Deck of CardsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "besson.Deck-of-CardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Deck of Cards";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA233A961C320D400077FB0A /* Build configuration list for PBXProject "Deck of Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA233AC11C320D400077FB0A /* Debug */,
+				FA233AC21C320D400077FB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA233AC31C320D400077FB0A /* Build configuration list for PBXNativeTarget "Deck of Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA233AC41C320D400077FB0A /* Debug */,
+				FA233AC51C320D400077FB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA233AC61C320D400077FB0A /* Build configuration list for PBXNativeTarget "Deck of CardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA233AC71C320D400077FB0A /* Debug */,
+				FA233AC81C320D400077FB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA233AC91C320D400077FB0A /* Build configuration list for PBXNativeTarget "Deck of CardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA233ACA1C320D400077FB0A /* Debug */,
+				FA233ACB1C320D400077FB0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA233A931C320D400077FB0A /* Project object */;
+}

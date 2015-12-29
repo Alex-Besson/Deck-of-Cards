@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Jgf-dl-66O">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Deck_of_Cards" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQi-2j-bWn" customClass="DeckView" customModule="Deck_of_Cards" customModuleProvider="target">
+                                <rect key="frame" x="150" y="72" width="300" height="378"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="428" id="A0s-VF-jZt"/>
+                                    <constraint firstAttribute="height" constant="378" id="CHR-bh-6ca"/>
+                                    <constraint firstAttribute="width" constant="300" id="GeZ-7h-dUr"/>
+                                    <constraint firstAttribute="width" constant="300" id="Jhg-zZ-hFZ"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="A0s-VF-jZt"/>
+                                        <exclude reference="Jhg-zZ-hFZ"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7iT-lh-m39">
+                                <rect key="frame" x="60" y="460" width="82" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaS-zD-Jnz" customClass="RippleButton" customModule="Deck_of_Cards" customModuleProvider="target">
+                                        <rect key="frame" x="1" y="0.0" width="80" height="80"/>
+                                        <connections>
+                                            <action selector="noButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CU4-eN-DBf"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="aaS-zD-Jnz" firstAttribute="leading" secondItem="7iT-lh-m39" secondAttribute="leading" constant="1" id="EWn-BX-ZwV"/>
+                                    <constraint firstAttribute="trailing" secondItem="aaS-zD-Jnz" secondAttribute="trailing" constant="1" id="GSB-F5-qIq"/>
+                                    <constraint firstItem="aaS-zD-Jnz" firstAttribute="top" secondItem="7iT-lh-m39" secondAttribute="top" id="Tfj-I5-uB9"/>
+                                    <constraint firstAttribute="height" constant="80" id="muh-yy-99X"/>
+                                    <constraint firstAttribute="bottom" secondItem="aaS-zD-Jnz" secondAttribute="bottom" id="vSo-Ta-Qdb"/>
+                                    <constraint firstAttribute="width" constant="82" id="zNG-sc-ijf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gpX-ga-Xyj">
+                                <rect key="frame" x="458" y="460" width="82" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6F-cb-mrR" customClass="NoButton" customModule="Deck_of_Cards" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
+                                        <connections>
+                                            <action selector="yesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lVt-ak-fMl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="82" id="Cp0-cx-guX"/>
+                                    <constraint firstAttribute="bottom" secondItem="T6F-cb-mrR" secondAttribute="bottom" id="Z7g-b9-8wb"/>
+                                    <constraint firstAttribute="height" constant="80" id="d9e-NI-T2C"/>
+                                    <constraint firstAttribute="trailing" secondItem="T6F-cb-mrR" secondAttribute="trailing" constant="1" id="gsq-qF-ZJa"/>
+                                    <constraint firstItem="T6F-cb-mrR" firstAttribute="top" secondItem="gpX-ga-Xyj" secondAttribute="top" id="qRd-WN-j2K"/>
+                                    <constraint firstItem="T6F-cb-mrR" firstAttribute="leading" secondItem="gpX-ga-Xyj" secondAttribute="leading" id="w1T-QB-80m"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88173314140000003" green="0.9765513334" blue="0.98401521380000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gpX-ga-Xyj" secondAttribute="trailing" constant="40" id="1fx-3S-CGp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gpX-ga-Xyj" secondAttribute="trailing" constant="40" id="2ai-E2-07R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TQi-2j-bWn" secondAttribute="bottom" constant="150" id="2hY-vE-RMQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TQi-2j-bWn" secondAttribute="trailing" constant="30" id="8aj-Sb-zht"/>
+                            <constraint firstItem="TQi-2j-bWn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="JBV-mN-qqA"/>
+                            <constraint firstItem="TQi-2j-bWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lc3-ag-rnb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7iT-lh-m39" secondAttribute="bottom" constant="60" id="N28-Mc-K1U"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gpX-ga-Xyj" secondAttribute="bottom" constant="60" id="N7D-oE-eEV"/>
+                            <constraint firstItem="TQi-2j-bWn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="SJT-HC-CY7"/>
+                            <constraint firstItem="TQi-2j-bWn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="gbg-ch-xBc"/>
+                            <constraint firstItem="TQi-2j-bWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="inB-JG-gCH"/>
+                            <constraint firstAttribute="trailing" secondItem="TQi-2j-bWn" secondAttribute="trailing" constant="30" id="mxM-J0-pcf"/>
+                            <constraint firstItem="7iT-lh-m39" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="zfU-4l-TSa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8aj-Sb-zht"/>
+                                <exclude reference="JBV-mN-qqA"/>
+                                <exclude reference="SJT-HC-CY7"/>
+                                <exclude reference="inB-JG-gCH"/>
+                                <exclude reference="mxM-J0-pcf"/>
+                                <exclude reference="2hY-vE-RMQ"/>
+                                <exclude reference="1fx-3S-CGp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="KaJ-CG-mwT">
+                        <barButtonItem key="leftBarButtonItem" image="Glasses" id="xSz-rr-3Jf">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Settings" id="GLf-lP-x4L">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="vwDeckView" destination="TQi-2j-bWn" id="vvh-Ac-f3J"/>
+                    </connections>
+                </viewController>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-Rn-UzN">
+                    <rect key="frame" x="0.0" y="0.0" width="82" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n19-i2-TNa" customClass="RippleButton" customModule="Deck_of_Cards" customModuleProvider="target">
+                            <rect key="frame" x="1" y="0.0" width="80" height="80"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="n19-i2-TNa" firstAttribute="leading" secondItem="M2R-Rn-UzN" secondAttribute="leading" constant="1" id="0y6-ma-mKE"/>
+                        <constraint firstAttribute="height" constant="80" id="3ll-Ca-rJp"/>
+                        <constraint firstItem="n19-i2-TNa" firstAttribute="top" secondItem="M2R-Rn-UzN" secondAttribute="top" id="BZI-yH-OaG"/>
+                        <constraint firstAttribute="width" constant="82" id="CkF-sD-csE"/>
+                        <constraint firstAttribute="trailing" secondItem="n19-i2-TNa" secondAttribute="trailing" constant="1" id="dcH-Sv-16f"/>
+                        <constraint firstAttribute="bottom" secondItem="n19-i2-TNa" secondAttribute="bottom" id="tUj-8d-ZO4"/>
+                    </constraints>
+                </view>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1252" y="353"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ktq-SU-2Ce">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jgf-dl-66O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hd8-Dd-1Ka">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.63623046874999933" blue="0.68745671188421076" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZMS-So-vQe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IAV-7k-yZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="353"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Glasses" width="44" height="44"/>
+        <image name="Settings" width="22" height="22"/>
+    </resources>
+</document>

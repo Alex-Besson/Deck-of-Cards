@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeckViewCard" customModule="Deck_of_Cards" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardBackgroundView" customModule="Deck_of_Cards" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teacup" translatesAutoresizingMaskIntoConstraints="NO" id="fg3-us-Iwu" customClass="CardImageView" customModule="Deck_of_Cards" customModuleProvider="target">
+                    <rect key="frame" x="20" y="20" width="560" height="482"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3c0-mV-sXT">
+                    <rect key="frame" x="0.0" y="510" width="600" height="90"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local Coffee Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xLD-g8-sU6">
+                            <rect key="frame" x="8" y="8" width="476" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="oE3-Yx-DVs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="oE3-Yx-DVs"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Half price lattes every tuesday." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="v0Q-yR-Dkg">
+                            <rect key="frame" x="8" y="42" width="473" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="McG-8h-79z"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.6 km away" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="MaQ-rD-Ce3">
+                            <rect key="frame" x="492" y="17" width="100" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="MMp-l4-YDJ"/>
+                                <constraint firstAttribute="height" constant="21" id="roI-lx-RP6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Walk" translatesAutoresizingMaskIntoConstraints="NO" id="2IU-7h-zhX">
+                            <rect key="frame" x="557" y="49" width="35" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="35" id="9wU-VX-Rke"/>
+                                <constraint firstAttribute="height" constant="26" id="jef-ub-dTZ"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 min" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="Oo5-tH-0d7">
+                            <rect key="frame" x="489" y="56" width="60" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="iGK-v4-ZGi"/>
+                                <constraint firstAttribute="width" constant="60" id="qEK-yL-Btl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="2IU-7h-zhX" secondAttribute="bottom" constant="15" id="0w7-cb-WUQ"/>
+                        <constraint firstItem="MaQ-rD-Ce3" firstAttribute="leading" secondItem="xLD-g8-sU6" secondAttribute="trailing" constant="8" id="5md-qb-IeL"/>
+                        <constraint firstItem="xLD-g8-sU6" firstAttribute="leading" secondItem="3c0-mV-sXT" secondAttribute="leading" constant="8" id="A4D-EF-SJW"/>
+                        <constraint firstItem="v0Q-yR-Dkg" firstAttribute="leading" secondItem="3c0-mV-sXT" secondAttribute="leading" constant="8" id="W3P-bl-6oO"/>
+                        <constraint firstAttribute="trailing" secondItem="MaQ-rD-Ce3" secondAttribute="trailing" constant="8" id="ZQ0-fk-bew"/>
+                        <constraint firstItem="2IU-7h-zhX" firstAttribute="leading" secondItem="Oo5-tH-0d7" secondAttribute="trailing" constant="8" id="ap3-VQ-pM3"/>
+                        <constraint firstItem="v0Q-yR-Dkg" firstAttribute="top" secondItem="xLD-g8-sU6" secondAttribute="bottom" constant="3" id="lHN-35-UeK"/>
+                        <constraint firstAttribute="bottom" secondItem="v0Q-yR-Dkg" secondAttribute="bottom" constant="8" id="qnD-uf-ddk"/>
+                        <constraint firstAttribute="height" constant="90" id="r69-1z-dPW"/>
+                        <constraint firstAttribute="bottom" secondItem="Oo5-tH-0d7" secondAttribute="bottom" constant="8" id="tFH-Of-eb7"/>
+                        <constraint firstItem="xLD-g8-sU6" firstAttribute="top" secondItem="3c0-mV-sXT" secondAttribute="top" constant="8" id="tW4-z5-mbS"/>
+                        <constraint firstAttribute="trailing" secondItem="2IU-7h-zhX" secondAttribute="trailing" constant="8" id="u77-OD-ZSW"/>
+                        <constraint firstItem="Oo5-tH-0d7" firstAttribute="leading" secondItem="v0Q-yR-Dkg" secondAttribute="trailing" constant="8" id="u8N-ym-7jN"/>
+                        <constraint firstItem="MaQ-rD-Ce3" firstAttribute="top" secondItem="3c0-mV-sXT" secondAttribute="top" constant="17" id="zwI-9T-hmc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.9614257812" green="0.9765513334" blue="0.98401521380000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fg3-us-Iwu" secondAttribute="bottom" constant="80" id="HPn-VC-WT3"/>
+                <constraint firstAttribute="trailing" secondItem="fg3-us-Iwu" secondAttribute="trailing" constant="20" id="J4f-M1-SgR"/>
+                <constraint firstItem="fg3-us-Iwu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="LT8-UJ-M8N"/>
+                <constraint firstItem="3c0-mV-sXT" firstAttribute="top" secondItem="fg3-us-Iwu" secondAttribute="bottom" constant="8" id="Moq-Fb-mfw"/>
+                <constraint firstItem="3c0-mV-sXT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qq2-SV-C1l"/>
+                <constraint firstAttribute="bottom" secondItem="3c0-mV-sXT" secondAttribute="bottom" id="U6C-ZU-Qqm"/>
+                <constraint firstAttribute="trailing" secondItem="3c0-mV-sXT" secondAttribute="trailing" id="jtg-yd-QQB"/>
+                <constraint firstItem="fg3-us-Iwu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="taC-x6-Wwm"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="HPn-VC-WT3"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="Walk" width="100" height="100"/>
+        <image name="teacup" width="450" height="349"/>
+    </resources>
+</document>
